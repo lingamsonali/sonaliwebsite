@@ -1,0 +1,45 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    background-image: url(https://www.mountainphotography.com/images/xl/20090722-Stranda-Sunset-4x5.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    text-align: center;
+}
+.container2{
+    padding: 50px;
+    padding-inline: 100px;
+    padding-block: 100px
+}
+.bottom{
+    opacity: 0.7;
+    text-align: center;
+    border: 1px ;
+    border-radius: 8px;
+    background-color: white;
+    padding: 18px;
+    width: 400px;
+}
+.bottom button{
+    padding: 5px;
+    padding-inline: 10px;
+    background-color: rgb(202, 36, 36);
+    border-radius: 5px;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+}
+body input{
+    padding: 8px; 
+    padding-inline:18px; 
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 16px;
+}
